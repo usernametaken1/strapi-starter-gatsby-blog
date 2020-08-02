@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: "gatsby-source-strapi",
       options: {
-        apiURL: process.env.API_URL || "http://localhost:1337",
+        apiURL: process.env.API_URL || "http://366f4cfb2c9e.ngrok.io",
         contentTypes: [
           // List of the Content Types you want to be able to request from Gatsby.
           "article",
